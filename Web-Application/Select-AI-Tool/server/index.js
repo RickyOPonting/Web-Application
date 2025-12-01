@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   'https://selectaitoolserver.vercel.app',
-  'https://selectaitool.vercel.app'
+  'https://www.selectaitool.com'
 ];
 
 app.use(cors({
