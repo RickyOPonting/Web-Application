@@ -14,8 +14,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
-  'https://smartaitools.vercel.app',
-  'http://localhost:4028'
+  'https://selectaitoolserver.vercel.app',
+  'https://selectaitool.vercel.app'
 ];
 
 app.use(cors({
